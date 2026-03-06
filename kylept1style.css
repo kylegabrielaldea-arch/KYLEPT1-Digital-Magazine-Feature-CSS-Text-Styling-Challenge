@@ -49,3 +49,66 @@ margin-top:0;
 .coverlines ul{
 padding-left:20px;
 }
+
+body{
+font-family: 'Georgia', serif;
+font-size:18px;
+line-height:1.6;
+}
+
+.magazine-name{
+font-family: 'Impact', sans-serif;
+font-size:60px;
+letter-spacing:3px;
+}
+
+h1,h2,h3{
+font-weight:bold;
+}
+
+.intro::first-letter{
+font-size:50px;
+font-weight:bold;
+color:#0ea5e9;
+float:left;
+margin-right:8px;
+}
+
+.coverlines ul{
+list-style-type:square;
+}
+
+nav a:hover{
+color:#00eaff;
+}
+
+.links a:hover{
+text-decoration:underline;
+}
+
+.headline{
+color:#ffffff;
+text-transform:uppercase;
+}
+
+.tagline{
+font-style:italic;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+}
+
+.coverlines{
+margin-top:40px;
+padding:20px;
+border:3px solid white;
+border-radius:10px;
+max-width:400px;
+}
+
+footer{
+text-align:center;
+padding:10px;
+}
