@@ -19,19 +19,24 @@ padding:60px;
 font-size:50px;
 margin-bottom:10px;
 color:#000991;
+font-family: 'Impact', sans-serif;
+font-size:60px;
+letter-spacing:3px;
 }
 
 .headline{
 font-size:70px;
 margin:0;
 font-weight:bold;
-  color:#ffffff;
+color:#ffffff;
+text-transform:uppercase;
 }
 
 .tagline{
 font-size:20px;
 margin-top:10px;
-  color:#ffffff;
+color:#ffffff;
+font-style:italic;
 }
 
 .date{
@@ -56,18 +61,16 @@ margin-top:0;
 
 .coverlines ul{
 padding-left:20px;
+list-style-type:square;
 }
 
 body{
 font-family: 'Georgia', serif;
 font-size:18px;
 line-height:1.6;
-}
-
-.magazine-name{
-font-family: 'Impact', sans-serif;
-font-size:60px;
-letter-spacing:3px;
+font-family: Arial, sans-serif;
+margin:40px;
+line-height:1.6;
 }
 
 h1,h2,h3{
@@ -83,30 +86,8 @@ float:left;
 margin-right:8px;
 }
 
-.coverlines ul{
-list-style-type:square;
-}
-
-nav a:hover{
-color:#00eaff;
-}
-
 .links a:hover{
 text-decoration:underline;
-}
-
-.headline{
-color:#1F2A44:
-text-transform:uppercase;
-}
-
-.tagline{
-font-style:italic;
-}
-
-nav a{
-text-decoration:none;
-color:white;
 }
 
 .coverlines{
@@ -115,11 +96,6 @@ padding:20px;
 border:3px solid white;
 border-radius:10px;
 max-width:400px;
-}
-
-footer{
-text-align:center;
-padding:10px;
 }
 
 nav{
@@ -142,6 +118,7 @@ transition:0.3s;
 nav a:hover{
 background:#2563eb;
 transform:scale(1.05);
+color:#00eaff;
 }
 
 .profile{
@@ -159,39 +136,12 @@ border-radius:50%;
 margin-bottom:10px;
 }
 
-body{
-font-family: Arial, sans-serif;
-margin:40px;
-line-height:1.6;
-}
-
-nav a{
-text-decoration:none;
-margin-right:20px;
-padding:10px 15px;
-background:#1e73be;
-color:white;
-border-radius:5px;
-}
-
-nav a:hover{
-background:#155a96;
-}
-
 .article{
 margin-bottom:80px;
 border-bottom:2px solid #ddd;
 padding-bottom:40px;
 color:#ffffff;
 padding-left:20px;
-
-}
-
-.intro::first-letter{
-font-size:45px;
-font-weight:bold;
-float:left;
-margin-right:8px;
 }
 
 .float-img{
