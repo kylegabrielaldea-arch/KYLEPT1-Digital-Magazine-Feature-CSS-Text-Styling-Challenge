@@ -1,28 +1,7 @@
-/* GENERAL */
-body{
-font-family:Arial, sans-serif;
-font-size:18px;
-line-height:1.6;
-margin:40px;
-}
-
-h1,h2,h3{
-font-weight:bold;
-}
-
-footer{
-text-align:center;
-margin-top:40px;
-padding:15px;
-border-top:2px solid #ddd;
-font-size:14px;
-}
-
-/* HOME PAGE */
-
 .cover-page{
 margin:0;
-background:#90D5FF;
+font-family:Arial;
+background-color:#90D5FF; 
 }
 
 .cover{
@@ -31,38 +10,104 @@ background-image:url("https://www.chitkara.edu.in/blogs/wp-content/uploads/2023/
 background-size:cover;
 background-position:center;
 background-repeat:no-repeat;
+min-height:100vh;
+margin:0;
 padding:60px;
 }
 
 .magazine-name{
-font-family:Impact, sans-serif;
-font-size:60px;
-letter-spacing:3px;
+font-size:50px;
+margin-bottom:10px;
 color:#000991;
 }
 
 .headline{
 font-size:70px;
 margin:0;
-color:#1F2A44;
-text-transform:uppercase;
+font-weight:bold;
+  color:#ffffff;
 }
 
 .tagline{
 font-size:20px;
 margin-top:10px;
-color:#ffffff;
-font-style:italic;
+  color:#ffffff;
 }
 
 .date{
 font-size:16px;
 margin-top:5px;
 opacity:0.8;
-color:#000991;
+color:#000991
 }
 
-/* COVERLINES */
+.coverlines{
+margin-top:40px;
+background:rgba(0,0,0,0.6);
+padding:20px;
+border-radius:10px;
+max-width:400px;
+color:#ffffff;
+}
+
+.coverlines h3{
+margin-top:0;
+}
+
+.coverlines ul{
+padding-left:20px;
+}
+
+body{
+font-family: 'Georgia', serif;
+font-size:18px;
+line-height:1.6;
+}
+
+.magazine-name{
+font-family: 'Impact', sans-serif;
+font-size:60px;
+letter-spacing:3px;
+}
+
+h1,h2,h3{
+font-weight:bold;
+text-align:center;
+}
+
+.intro::first-letter{
+font-size:50px;
+font-weight:bold;
+color:#0ea5e9;
+float:left;
+margin-right:8px;
+}
+
+.coverlines ul{
+list-style-type:square;
+}
+
+nav a:hover{
+color:#00eaff;
+}
+
+.links a:hover{
+text-decoration:underline;
+}
+
+.headline{
+color:#1F2A44:
+text-transform:uppercase;
+}
+
+.tagline{
+font-style:italic;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+}
 
 .coverlines{
 margin-top:40px;
@@ -70,16 +115,12 @@ padding:20px;
 border:3px solid white;
 border-radius:10px;
 max-width:400px;
-background:rgba(0,0,0,0.6);
-color:white;
 }
 
-.coverlines ul{
-padding-left:20px;
-list-style-type:square;
+footer{
+text-align:center;
+padding:10px;
 }
-
-/* NAVIGATION */
 
 nav{
 text-align:center;
@@ -100,39 +141,8 @@ transition:0.3s;
 
 nav a:hover{
 background:#2563eb;
-color:#00eaff;
 transform:scale(1.05);
 }
-
-/* ARTICLES */
-
-.article{
-margin-bottom:80px;
-border-bottom:2px solid #ddd;
-padding-bottom:40px;
-padding-left:20px;
-color:white;
-}
-
-.float-img{
-float:right;
-width:500px;
-height:300px;
-margin-left:20px;
-margin-bottom:10px;
-border-radius:6px;
-object-fit:cover;
-}
-
-.intro::first-letter{
-font-size:50px;
-font-weight:bold;
-float:left;
-margin-right:8px;
-color:#0ea5e9;
-}
-
-/* PROFILE */
 
 .profile{
 text-align:center;
@@ -149,7 +159,50 @@ border-radius:50%;
 margin-bottom:10px;
 }
 
-/* UPDATES */
+body{
+font-family: Arial, sans-serif;
+margin:40px;
+line-height:1.6;
+}
+
+nav a{
+text-decoration:none;
+margin-right:20px;
+padding:10px 15px;
+background:#1e73be;
+color:white;
+border-radius:5px;
+}
+
+nav a:hover{
+background:#155a96;
+}
+
+.article{
+margin-bottom:80px;
+border-bottom:2px solid #ddd;
+padding-bottom:40px;
+color:#ffffff;
+padding-left:20px;
+
+}
+
+.intro::first-letter{
+font-size:45px;
+font-weight:bold;
+float:left;
+margin-right:8px;
+}
+
+.float-img{
+float:right;
+width:500px;
+height:300px;
+margin-left:20px;
+margin-bottom:10px;
+border-radius:6px;
+object-fit:cover;
+}
 
 .updates{
 margin-top:30px;
@@ -182,4 +235,10 @@ margin-top:10px;
 margin-top:30px;
 }
 
-
+footer{
+margin-top:40px;
+padding:15px;
+text-align:center;
+border-top:2px solid #ddd;
+font-size:14px;
+}
