@@ -149,3 +149,43 @@ height:150px;
 border-radius:50%;
 margin-bottom:10px;
 }
+
+body{
+font-family: Arial, sans-serif;
+margin:40px;
+line-height:1.6;
+}
+
+nav a{
+text-decoration:none;
+margin-right:20px;
+padding:10px 15px;
+background:#1e73be;
+color:white;
+border-radius:5px;
+}
+
+nav a:hover{
+background:#155a96;
+}
+
+.article{
+margin-bottom:80px;
+border-bottom:2px solid #ddd;
+padding-bottom:40px;
+}
+
+.float-img{
+float:right;
+width:420px;
+margin-left:20px;
+margin-bottom:10px;
+border-radius:6px;
+}
+
+.intro::first-letter{
+font-size:45px;
+font-weight:bold;
+float:left;
+margin-right:8px;
+}
