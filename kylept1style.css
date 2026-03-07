@@ -192,3 +192,42 @@ border-radius:6px;
 object-fit:cover;
 }
 
+.updates{
+margin-top:30px;
+}
+
+.update-item{
+display:inline-block;
+width:250px;
+margin:20px;
+text-align:center;
+}
+
+.update-item a{
+text-decoration:none;
+color:black;
+}
+
+.thumb{
+width:250px;
+height:150px;
+object-fit:cover;
+border-radius:6px;
+}
+
+.references ul{
+margin-top:10px;
+}
+
+.contact{
+margin-top:30px;
+}
+
+footer{
+margin-top:40px;
+padding:15px;
+text-align:center;
+border-top:2px solid #ddd;
+font-size:14px;
+}
+
