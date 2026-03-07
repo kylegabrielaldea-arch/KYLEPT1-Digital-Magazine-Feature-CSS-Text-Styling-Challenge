@@ -178,6 +178,9 @@ padding-bottom:40px;
 .intro::first-letter{
 font-size:45px;
 font-weight:bold;
+float:left;
+margin-right:8px;
+}
 
 .float-img{
 float:right;
@@ -188,6 +191,4 @@ margin-bottom:10px;
 border-radius:6px;
 object-fit:cover;
 }
-float:left;
-margin-right:8px;
-}
+
