@@ -84,6 +84,7 @@ h1,h2,h3{
 font-weight:bold;
 text-align:center;
 color:#00ffff;
+text-shadow: 2px 2px 4px #000000;
 }
 
 .intro::first-letter{
