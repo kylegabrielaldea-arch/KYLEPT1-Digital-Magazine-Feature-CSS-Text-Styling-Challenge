@@ -175,17 +175,19 @@ border-bottom:2px solid #ddd;
 padding-bottom:40px;
 }
 
-.float-img{
-float:right;
-width:350px;
-margin-left:20px;
-margin-bottom:10px;
-border-radius:6px;
-}
-
 .intro::first-letter{
 font-size:45px;
 font-weight:bold;
+
+.float-img{
+float:right;
+width:420px;
+height:260px;
+margin-left:20px;
+margin-bottom:10px;
+border-radius:6px;
+object-fit:cover;
+}
 float:left;
 margin-right:8px;
 }
