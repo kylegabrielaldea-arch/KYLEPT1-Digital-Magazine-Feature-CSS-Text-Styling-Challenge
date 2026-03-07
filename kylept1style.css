@@ -197,3 +197,8 @@ text-align:center;
 border-top:2px outset #ffffff;
 font-size:14px;
 }
+.update-item a:hover{
+background:#2563eb;
+transform:scale(1.05);
+color:#00eaff;
+}
